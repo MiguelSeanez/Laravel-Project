@@ -1,0 +1,20 @@
+<div class="col-12 pt-0 mt-0">
+    <h2 class="text-muted"> {{ __("Requisitos del curso")}}</h2>
+    <hr>
+</div>
+
+@forelse($requirements as $requirement)
+    <div class="col-6">
+        <card class="bg-light p-3">
+            <p class="mb-0">
+                {{ $requirement->requirement }}
+            </p>
+        </card>
+    </div>
+
+@empty
+    <div class="alert alert-black">
+        <i class="fa fa-info-circle"></i>
+        {{ __("No hay requerimientos para este curso")}}
+    </div>
+@endforelse
