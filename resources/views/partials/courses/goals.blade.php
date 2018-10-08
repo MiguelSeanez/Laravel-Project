@@ -5,11 +5,11 @@
 
 @forelse($goals as $goal)
     <div class="col-6">
-        <card class="bg-light p-3">
+        <div class="card bg-light p-3">
             <p class="mb-0">
                 {{ $goal->goal }}
             </p>
-        </card>
+        </div>
     </div>
 
 @empty

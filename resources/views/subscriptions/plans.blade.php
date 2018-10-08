@@ -32,7 +32,7 @@
                             "name" => __("Suscripcion"),
                             "description" => __("Mensual"),
                             "type" => "monthly",
-                            "amount" => 250.00 
+                            "amount" => 25000.00 
                             ]
                         ])
                     </li>
@@ -58,7 +58,7 @@
                             "name" => __("Suscripcion"),
                             "description" => __("Trimestral"),
                             "type" => "quarterly",
-                            "amount" => 600.00 
+                            "amount" => 60000.00 
                             ]
                         ])
                     </li>
@@ -84,7 +84,7 @@
                             "name" => __("Suscripcion"),
                             "description" => __("Anual"),
                             "type" => "yeary",
-                            "amount" => 1500.00 
+                            "amount" => 150000.00 
                             ]
                         ])
                     </li>
